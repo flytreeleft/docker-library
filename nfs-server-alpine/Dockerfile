@@ -1,6 +1,6 @@
 # https://hub.docker.com/r/itsthenetwork/nfs-server-alpine/
 # docker build --rm -t nfs-server-alpine .
-FROM alpine:latest
+FROM alpine:3.4
 MAINTAINER flytreeleft <flytreeleft@126.com>
 
 RUN apk add -U -v nfs-utils bash iproute2 && \

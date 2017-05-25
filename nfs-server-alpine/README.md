@@ -5,7 +5,7 @@ but [confd](https://github.com/kelseyhightower/confd) was removed to keep the mi
 
 A handy NFS Server image comprising of;
 
-- [Alpine Linux](http://www.alpinelinux.org/) v3.5.0. Alpine Linux is a security-oriented,
+- [Alpine Linux](http://www.alpinelinux.org/) v3.4.0. Alpine Linux is a security-oriented,
   lightweight Linux distribution based on [musl libc](https://www.musl-libc.org/) (v1.1.15)
   and [BusyBox](https://www.busybox.net/).
 - NFS v4 only, over TCP on port 2049.
