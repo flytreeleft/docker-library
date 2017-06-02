@@ -94,6 +94,8 @@ docker run -d --name nfs --cap-add=SYS_ADMIN \
        itsthenetwork/nfs-server-alpine:latest
 ```
 
+**NOTE**: In Ubuntu, the extra option `--security-opt apparmor:unconfined` is needed.
+
 ## What Good Looks Like
 
 A successful server start should produce log output like this:
