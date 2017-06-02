@@ -39,13 +39,13 @@ there's no need to specify the folder name when mounting from a client.
 For example, this works fine even though the folder being mounted and shared is `/nfsshare`:
 
 ```bash
-sudo mount -v 10.11.12.101:/ /some/where/here
+sudo mount -v -t nfs 10.11.12.101:/ /some/where/here
 ```
 
 To be a little more explicit:
 
 ```bash
-sudo mount -v -o vers=4,loud 10.11.12.101:/ /some/where/here
+sudo mount -v -t nfs -o proto=tcp,port=2049,vers=4,loud 10.11.12.101:/ /some/where/here
 ```
 
 To unmount:
